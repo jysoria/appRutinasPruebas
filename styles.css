@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #FFC0CB;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #FFC0CB;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  flex-grow: 3;
+  justify-content: center;
+}
+
+.navbar-items button {
+  background-color: #FFC0CB;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.navbar-items button.active {
+  background-color: #FF1493;
+}
+
+.routine-details {
+  background-color: #F8F8F8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.day {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.exercise {
+  margin-bottom: 5px;
+}
+
+.video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .header {
+    font-size: 20px;
+  }
+  
+  .navbar-items {
+    display: none;
+  }
+  
+  .navbar-items.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
