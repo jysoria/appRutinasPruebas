@@ -1,74 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WebApp de Rutinas de Ejercicios</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <div class="navbar">
-    <div class="header">WebApp de Rutinas de Ejercicios</div>
-    <div class="toggle">
-      <button class="toggle-btn" onclick="toggleNavbar()">&#9776;</button>
-    </div>
-    <div class="navbar-items" id="navbarItems">
-      <button class="active" onclick="toggleWeek(1)">Semana 1</button>
-      <button onclick="toggleWeek(2)">Semana 2</button>
-      <button onclick="toggleWeek(3)">Semana 3</button>
-      <button onclick="toggleWeek(4)">Semana 4</button>
-      <button onclick="toggleWeek(5)">Semana 5</button>
-      <button onclick="toggleWeek(6)">Semana 6</button>
-      <button onclick="toggleWeek(7)">Semana 7</button>
-      <button onclick="toggleWeek(8)">Semana 8</button>
-    </div>
-  </div>
-
-  <div class="container">
-    <div id="week1" class="week-routines active">
-      <div class="routine-details">
-        <div class="day">Día 1</div>
-        <div class="superset">
-          <div class="exercise">Superset 1 - Ejercicio 1</div>
-          <div class="exercise">Superset 1 - Ejercicio 2</div>
-        </div>
-        <div class="superset">
-          <div class="exercise">Superset 2 - Ejercicio 1</div>
-          <div class="exercise">Superset 2 - Ejercicio 2</div>
-        </div>
-        <div class="superset">
-          <div class="exercise">Superset 3 - Ejercicio 1</div>
-          <div class="exercise">Superset 3 - Ejercicio 2</div>
-        </div>
+  <head>
+    <title>Mi WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Rutinas para mi 💖</h1>
+    </header>
+    <main>
+      <div class="pantalla inicio">
+        <h2>Pantalla de Inicio</h2>
+        <p>Bienvenido a Mi WebApp</p>
       </div>
-      
-      <!-- Agrega más días y rutinas para la semana 1 -->
-      
-    </div>
-    
-    <div id="week2" class="week-routines">
-      <div class="routine-details">
-        <div class="day">Día 1</div>
-        <div class="superset">
-          <div class="exercise">Superset 1 - Ejercicio 1</div>
-          <div class="exercise">Superset 1 - Ejercicio 2</div>
-        </div>
-        <div class="superset">
-          <div class="exercise">Superset 2 - Ejercicio 1</div>
-          <div class="exercise">Superset 2 - Ejercicio 2</div>
-        </div>
-        <div class="superset">
-          <div class="exercise">Superset 3 - Ejercicio 1</div>
-          <div class="exercise">Superset 3 - Ejercicio 2</div>
-        </div>
+      <div class="pantalla rutinas">
+        <h2>Rutinas</h2>
+        <p>Selecciona una rutina para empezar</p>
       </div>
-      
-      <!-- Agrega más días y rutinas para la semana 2 -->
-      
-    </div>
-    
-    <!-- Repite la estructura para más semanas -->
-    
-  </div>
-  
-  <script src="script.js"></script>
-</body>
+      <div class="pantalla control-peso">
+        <h2>Control de Peso</h2>
+        <p>Ingresa tus datos para llevar un control de tu peso</p>
+      </div>
+    </main>
+    <nav>
+      <ul>
+        <li><a href="#" class="activo" data-pantalla="inicio">Inicio</a></li>
+        <li><a href="#" data-pantalla="rutinas">Rutinas</a></li>
+        <li><a href="#" data-pantalla="control-peso">Control de Peso</a></li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
 </html>
