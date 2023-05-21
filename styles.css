@@ -2,16 +2,9 @@
 
 body {
   background-color: #f7d9e1;
-  color: #333;
+  color: #282828;
   font-family: Montserrat, sans-serif;
   margin: 0;
-}
-
-header {
-  background-color: #f2a1b8;
-  color: #fff;
-  padding: 2rem;
-  text-align: center;
 }
 
 h1 {
@@ -35,7 +28,7 @@ main {
 nav {
   background-color: #f2a1b8;
   bottom: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 
