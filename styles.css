@@ -16,40 +16,6 @@ main {
   padding: 20px;
 }
 
-.pantalla {
-  display: none;
-  background-color: #f7d9e1;
-}
-
-.pantalla.inicio {
-  display: block;
-}
-
-nav {
-  background-color: #f2a1b8;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}
-
-nav ul {
- : flex;
-  justify-content: space-around;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin: 10px;
-}
-
-nav a {
-  color: #fff;
-  font-size:18px;
-  text-decoration: none;
-}
-
-nav a.activo {
-  font-weight: bold;
+.nav-item{
+  padding-left: 0em;
 }
