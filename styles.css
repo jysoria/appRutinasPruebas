@@ -27,26 +27,63 @@ main {
   justify-content: space-between;
 } */
 
+/* Estilos para la barra de navegación */
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+/* Estilos para las semanas */
+.semanas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+/* Estilos para el calendario */
+.calendario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .dias {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-button {
-  width: 40px;
-  height: 40px;
-  background-color: #f2f2f2;
-  border: none;
-  border-radius: 5px;
-  color: #333;
+.dia {
+  flex-basis: calc(100% / 7);
+  text-align: center;
+  margin: 5px;
 }
 
+/* Estilos para las tarjetas de ejercicio */
 .tarjeta-ejercicio {
+  display: flex;
+  flex-wrap: wrap;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
+  margin-top: 2em;
 }
 
 .tarjeta-ejercicio img {
@@ -55,7 +92,7 @@ button {
 }
 
 .tarjeta-ejercicio h4 {
-  margin-top: 10px;
+  margin-top: 2rem;
 }
 
 .tarjeta-ejercicio p {
