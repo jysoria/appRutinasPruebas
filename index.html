@@ -1,49 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prueba 🤍</title>
-    <!--bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!--linkeando con css -->
-    <link rel="stylesheet" href="styles.css">
-    <!--iconos bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Juli 🤍</a>
-          <div class="barra" id="navbarSupportedContent">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="bi bi-fire"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="planesAlim.html"><i class="bi bi-heart-pulse"></i></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="seguimiento.html"><i class="bi bi-graph-up"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prueba 🤍</title>
+  <!--bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!--linkeando con css -->
+  <link rel="stylesheet" href="styles.css">
+  <!--iconos bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Juli 🤍</a>
+        <div class="barra" id="navbarSupportedContent">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="bi bi-fire"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="planesAlim.html"><i class="bi bi-heart-pulse"></i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="seguimiento.html"><i class="bi bi-graph-up"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-      
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-  </body>
+    </nav>
+  </header>
+  <main>
+    <div class="dias">
+      <button id="btnDia1">1</button>
+      <button id="btnDia2">2</button>
+      <button id="btnDia3">3</button>
+      <button id="btnDia4">4</button>
+      <button id="btnDia5">5</button>
+      <button id="btnDia6">6</button>
+      <button id="btnDia7">7</button>
+      <button id="btnDia8">8</button>
+      <!-- Agrega los botones para los días restantes -->
+    </div>
+    <div id="ejerciciosDia1" class="ejercicios" style="display: none;">
+      <h3>Ejercicios para el día 1</h3>
+        <div class="tarjeta-ejercicio">
+          <img src="ruta-imagen-ejercicio.jpg" alt="Imagen del ejercicio 1">
+          <h4>Título del ejercicio 1</h4>
+          <p>Descripción del ejercicio 1...</p>
+        </div>
+        <div class="tarjeta-ejercicio">
+          <img src="ruta-imagen-ejercicio.jpg" alt="Imagen del ejercicio 2">
+          <h4>Título del ejercicio 2</h4>
+          <p>Descripción del ejercicio 2...</p>
+        </div>
+    </div>
+    <div id="ejerciciosDia2" class="ejercicios" style="display: none;">
+      <h3>Ejercicios para el día 2</h3>
+    <div class="tarjeta-ejercicio">
+      <img src="ruta-imagen-ejercicio.jpg" alt="Imagen del ejercicio 1">
+      <h4>Título del ejercicio 1</h4>
+      <p>Descripción del ejercicio 1...</p>
+    </div>
+    <div class="tarjeta-ejercicio">
+      <img src="ruta-imagen-ejercicio.jpg" alt="Imagen del ejercicio 2">
+      <h4>Título del ejercicio 2</h4>
+      <p>Descripción del ejercicio 2...</p>
+    </div>
+    </div>
+    <!-- Agrega los divs para los ejercicios de los días restantes -->
+
+
+
+
+
+
+
+  </main>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
