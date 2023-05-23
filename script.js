@@ -21,14 +21,14 @@ var ejerciciosPorSemanaYDia = {
     semana1: {
       dia1: [
         {
-          titulo: 'Caminata lateral',
-          imagen: 'https://static.vecteezy.com/system/resources/previews/005/580/039/non_2x/woman-doing-lateral-band-walk-exercise-flat-illustration-isolated-on-white-background-free-vector.jpg',
-          descripcion: 'Camina de lado a lado casi abajo en Squat. Usa las bandas de resistencia para aumentar tensión en glúteos.'
+          titulo: 'Caminata lateral en sentadilla',
+          imagen: 'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Mini-Band-Lateral-Walks_600x600.png?v=1656406023',
+          descripcion: '<b> 30 reps de lado a lado. </b> <br> Camina de lado a lado casi abajo en Squat. Usa las bandas de resistencia para aumentar tensión en glúteos.\n'
         },
         {
-          titulo: 'Ejercicio 2',
-          imagen: 'ejercicio2.jpg',
-          descripcion: 'Descripción del ejercicio 2'
+          titulo: 'Squat',
+          imagen: 'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Medicine-Ball-Squat_600x600.png?v=1655223652',
+          descripcion: '<b> 15 reps, 3 segundos en pausa. </b> <br> Baja con la espalda recta, quédate 3 segundos abajo, y sube cargando el peso con tus talones. La mancuerna o peso extra lo puedes cargar de distintas maneras, con brazos abajo, arriba… elige como mejor te acomodes.'
         },
         // Agrega más ejercicios para el día 1 de la semana 1
       ],
@@ -36,7 +36,7 @@ var ejerciciosPorSemanaYDia = {
         {
           titulo: 'Ejercicio 1/2',
           imagen: 'ejercicio3.jpg',
-          descripcion: 'Descripción del ejercicio 3'
+          descripcion: '<b> </b> <br>'
         },
         // Agrega más ejercicios para el día 2 de la semana 1
       ],

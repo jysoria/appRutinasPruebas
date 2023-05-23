@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap');
 
+html{
+  margin: 0;
+}
+
 body {
-  background-color: #f7d9e1;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HBwcHCAgHBwcHBw0HBwcHBw8IDQcNFREWIiARExMYKCggGCYlGx8fITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDy0ZFRkrKysrLS0rKysrKystKzctKysrKystLS0tLSsrLS0rKystLTctKysrKystKy0rLTcrK//AABEIASwAqAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIFBAf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAEQH/xAAZAQEBAQEBAQAAAAAAAAAAAAACAQADBQT/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A+wCihyx8emhVmliad0AbqyDp3WVujTkG1azurdG6Ug2rdZWilIFWs7q3RunIlVG6KN0pBWirWaUgmiiiliFM1LiOxRRRXnY+/SKKKuDp3RRRulImqjdG6N0pBtW6N0bo3TkHVRuqs7pSCt0bo3RulIJrNW6zunIho0ULiLdQBYhQqXEdaiiivPx9mmijdFLB07rNVZ3SkTTujdG6zSkHTujdG6N0pEO6zujdG6UgrdG6t1kpEO6BuiliGiijdLEVVFFXGNTNC4zrUUUV8OPo1qs7ooq4OndG6KzSkTTRujdG6UiHdZ3RujdKRDuiijdKRDWd0UUsY7oo3RSxDWaN0VcY1VmiljNUCpcZ1KKKK+LHTTRRRVxNNG6N0UsQ1miiljGiijdXEO6N0brO6UjHdG6N1ndLGarNFFLGNFFFXGNCo3VxcNTNS42OnVWaK+TGNFFFXE00UUVcY0boopYx3Rus7o3SxjujdFZ3VxjRRRSxTRRRVxcNFFFXFxqis1VcXDUzUq46dFZor5ccmqKzRVxmqKzRuljNbrO6KN1cY7o3RQWKqFRuri4azRuiri4aKKKuFhoooqrhqFFXCwpmplx0qKzRXz4+VqiiirimjdFBYpoFFXFw0bo3RVxcW6KKN1cLDRugVSwijdFVZDRRQpSGqiisUhqFSljoUUUVwx8JqrNVXFw0UUVcLDRWaKuFjVZ3RUqyJUbrO6pSHdFFFU5DRRUpSKoUVjkNFFFUpy1UzUy+XQorNVccefhoooq4WGiipVxVCs1SkarNFVUpFRVQxyKoUVTkNFFFUpyaKBWOQoUVinJqZqYvL31VmqubzcIooq4uGiiqqUiqooY5DQKKpyGiiisU5NFAqnOSKKKxzk0UVMc5NFCqlOTUzUxeXuqrNQPLkNFFSlOTQKKxSGiiisc5NFAqnIaKKKxzk0UVMc5VQorHOTRRQpzk1UCsU5KFDF5e+iiii8qRqiiiqU5NFCrHIhVRWKcqqihnScqoUVjnJoooU5yaFRWOcmiihjnJoqFY5yUzSy+XtqooqPJkIoqrHOTRQGKcmgKsc5VFVCuk5VCFY5yaKKGOcmgKoc5SoDHOShRWOclCpi8vbQhVeROSBVWOcpUUVinJooFY5CKKKxzk0VCo6TkigMc5IVFZ0nJooDFOShRWOcmoBF8vdRRVSeTOTRQqxSIVUMc5NFAY5CKqEOcqhCs6TkihMc5QVDHIaAkORIVMUhTKYse0UVE8iQ0BMUiQFY5DQghzlKihnSQhCscioQQ5EgmORIBDkIQYpCgmLHsQRvHkSCY5EEEOQgJjkQQY5EEkORBBjkSCQ5EEmORIJCkSQYsexIOjx5EkEORBJikQQY5EEkdJAkGORBBDkSQQ5EkGKQhBCxJJlx//2Q==);
+  background-size: cover;
   color: #282828;
   font-family: Montserrat, sans-serif;
   margin: 0;
@@ -77,10 +82,11 @@ header nav ul li a {
 
 /* Estilos para las tarjetas de ejercicio */
 .tarjeta-ejercicio {
+  background-color:hsla(0, 0%, 100%, 0.411);
   display: flex;
   flex-wrap: wrap;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 2em;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 2em;
@@ -99,4 +105,12 @@ header nav ul li a {
   width: 22rem;
   height: 20rem;
   align-self: center;
+}
+
+.card-body{
+  margin: 1em;
+}
+
+.card-text{
+  margin-bottom: 2rem;
 }
