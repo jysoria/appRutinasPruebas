@@ -84,11 +84,7 @@ header nav ul li a {
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 2em;
-}
-
-.tarjeta-ejercicio img {
-  max-width: 100%;
-  height: auto;
+  justify-content: center;
 }
 
 .tarjeta-ejercicio h4 {
@@ -99,3 +95,8 @@ header nav ul li a {
   margin-bottom: 0;
 }
 
+.card-img-top{
+  width: 22rem;
+  height: 20rem;
+  align-self: center;
+}

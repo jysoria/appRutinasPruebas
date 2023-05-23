@@ -21,9 +21,9 @@ var ejerciciosPorSemanaYDia = {
     semana1: {
       dia1: [
         {
-          titulo: 'Ejercicio 1/1',
-          imagen: 'ejercicio1.jpg',
-          descripcion: 'Descripción del ejercicio 1'
+          titulo: 'Caminata lateral',
+          imagen: 'https://static.vecteezy.com/system/resources/previews/005/580/039/non_2x/woman-doing-lateral-band-walk-exercise-flat-illustration-isolated-on-white-background-free-vector.jpg',
+          descripcion: 'Camina de lado a lado casi abajo en Squat. Usa las bandas de resistencia para aumentar tensión en glúteos.'
         },
         {
           titulo: 'Ejercicio 2',
@@ -43,6 +43,24 @@ var ejerciciosPorSemanaYDia = {
       // Agrega más días de la semana 1 si es necesario
     },
     semana2: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana3: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana4: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana5: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana6: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana7: {
+      // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
+    },
+    semana8: {
       // Agrega los ejercicios para la semana 2 de manera similar a la semana 1
     },
     // Agrega más semanas si es necesario
