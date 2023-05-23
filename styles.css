@@ -113,4 +113,11 @@ header nav ul li a {
 
 .card-text{
   margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+@media (min-width: 768px) {
+  .tarjeta-ejercicio{
+    justify-content: flex-start; /* Alineación horizontal a la izquierda en pantallas grandes */
+  }
 }
