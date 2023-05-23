@@ -23,20 +23,44 @@ var ejerciciosPorSemanaYDia = {
         {
           titulo: 'Caminata lateral en sentadilla',
           imagen: 'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Mini-Band-Lateral-Walks_600x600.png?v=1656406023',
-          descripcion: '<b> 30 reps de lado a lado. </b> <br> Camina de lado a lado casi abajo en Squat. Usa las bandas de resistencia para aumentar tensión en glúteos.\n'
+          descripcion: '<b> 30 reps de lado a lado. </b> <br> Camina de lado a lado casi abajo en Squat. Usa las bandas de resistencia para aumentar tensión en glúteos.<br><br><a href="https://www.youtube.com/watch?v=KYc2XmutKxk&ab_channel=Mady"><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
         },
         {
           titulo: 'Squat',
           imagen: 'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Medicine-Ball-Squat_600x600.png?v=1655223652',
-          descripcion: '<b> 15 reps, 3 segundos en pausa. </b> <br> Baja con la espalda recta, quédate 3 segundos abajo, y sube cargando el peso con tus talones. La mancuerna o peso extra lo puedes cargar de distintas maneras, con brazos abajo, arriba… elige como mejor te acomodes.'
+          descripcion: '<b> 15 reps, 3 segundos en pausa. </b> <br> Baja con la espalda recta, quédate 3 segundos abajo, y sube cargando el peso con tus talones. La mancuerna o peso extra lo puedes cargar de distintas maneras, con brazos abajo, arriba… elige como mejor te acomodes. <br><br><a href="https://www.youtube.com/watch?v=WxDXiDXi5Pg&ab_channel=Mady"><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
         },
-        // Agrega más ejercicios para el día 1 de la semana 1
+        {
+          titulo: 'Ejercicio 1',
+          imagen: 'ejercicio3.jpg',
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
+        },
+        {
+          titulo: 'Ejercicio 1',
+          imagen: 'ejercicio3.jpg',
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
+        },
+        {
+          titulo: 'Ejercicio 1',
+          imagen: 'ejercicio3.jpg',
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
+        },
+        {
+          titulo: 'Ejercicio 1',
+          imagen: 'ejercicio3.jpg',
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
+        },
+        {
+          titulo: 'Ejercicio 1',
+          imagen: 'ejercicio3.jpg',
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
+        },
       ],
       dia2: [
         {
-          titulo: 'Ejercicio 1/2',
+          titulo: 'Ejercicio 1',
           imagen: 'ejercicio3.jpg',
-          descripcion: '<b> </b> <br>'
+          descripcion: '<b> repeticiones </b> <br> Descripcion <br> <br><a href=" "><button type="button" class="btn btn-outline-dark"> Ejemplo en video </button></a> <br>    <br>'
         },
         // Agrega más ejercicios para el día 2 de la semana 1
       ],
